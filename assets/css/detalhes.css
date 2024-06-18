@@ -1,0 +1,39 @@
+.content2{
+    position: relative;
+    background: linear-gradient(-45deg,#1a1c1a72, #faf8f570, #57616c);
+    background-size: 400% 400%;
+    animation:  gradient 10s ease infinite alternate;
+    padding: 1rem;
+    width: 100vw;
+    height:  100vh;
+  }
+
+  .corpo2{
+    position: relative;
+    background: linear-gradient(-45deg,#30901a, #d7b34f, #488fe0);
+    background-size: 100% 100%;
+    animation:  gradient 10s ease infinite alternate;
+}
+
+.conteudo{
+    background: linear-gradient(-45deg,#1a1c1a72, #faf8f570, #57616c);
+    box-sizing: border-box;
+    border-radius: 1rem;
+    width:auto;
+    height: 80vh;
+}
+@keyframes gradient {
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+  }
+
+#text{
+    text-align: center;
+}
